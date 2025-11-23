@@ -1,4 +1,4 @@
-import { ButtonProps } from "@/interfaces"; // or relative path if alias not configured
+import { ButtonProps } from "@/interface"; // or relative path if alias not configured
 
 const Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action }: ButtonProps) => {
   const backgroundColorClass = buttonBackgroundColor ? {
